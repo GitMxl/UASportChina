@@ -1029,14 +1029,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="">
-            <div class="">
-				<span class=""><img src="img/generate_qrcode.jpg"/></span>
-			</div>	
-			<a class="#"></a>
-</div>
 	</div>
 	
+	
+	<div class="ErWeiMaBox">
+        <div class="MaBox">
+			<span class="ErWeiMa"><img src="img/generate_qrcode.jpg"/></span>
+		</div>	
+		<a class="" href="#"><span class="JieTou"></span></a>
+	</div>
 	</body>
 </html>
 <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
@@ -1068,7 +1069,7 @@
 		$(window).scroll(function(){
 			var scrolls = document.body.scrollTop || document.documentElement.scrollTop;
 			if(scrolls>=34){
-				$(".Nav_Box1").css({position:"fixed",top:"0",background:"#fff",zIndex:"100"});
+				$(".Nav_Box1").css({position:"fixed",top:"0",background:"#fff",zIndex:"999"});
 			}else if(scrolls<=0){
 				$(".Nav_Box1").css({position:"relative",zIndex:"2"});
 			}
