@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<link rel="stylesheet" type="text/css" href="css/enroll.css"/>
 	</head>
 	<body>
@@ -116,7 +117,7 @@
 																</p>
 															</div>
 														</a>
-														<a href="#"">
+														<span href="#"">
 															<p class="PChinese">UA HOVR芯片跑鞋</p>
 														</a>
 													</div>
@@ -766,125 +767,209 @@
 		</div>
 		
 		
-		
-		
-		
-		<!--FootBox-->
-	<div class="FootBox">
-		<div class="FootBoxSum">
-			<div class="FootBoxHeader">
-				<div class="HeaderLeft">
-					<img src="img/footer-black-logo.jpg"/>
-				</div>
-				<div class="HeaderRight">
-					<ul class="HeaderRightUi">
-						<li class="HeaderRightLi">
-							<i class="iconfont icon-weibiaoti-"></i>
-							<span class="">
-								400-021-8989
-							</span>
-						</li>
-						<li class="HeaderRightLi">
-							<a href="#">
-								<i class="iconfont icon-message"></i>
-							
-							<a href="#">
-								<span id="">
-									在线客服
+		<!--Enroll-->
+		<div class="Enroll">
+			<div class="EnrollBox">
+				<div class="Regi">
+					<h3>会员注册</h3>
+					<div class="RegiBox">
+						<div class="RegiLeft">
+							<div class="Email">
+								<p class="">邮箱</p>
+								<input type="text" class=""  name="" id="eMailId" placeholder="请输入邮箱"/><br />
+								<span id="eMailMsg">
+									
 								</span>
-							</a>
-						</li>
-						<li class="HeaderRightLi">
-							<a href="#">
-								<i class="iconfont icon-dingwei"></i>
-							</a>
-							<a href="#">
-								<span id="">
-									线下门店
+							</div>
+							<div class="Pass">
+								<p class="">密码</p>
+								<input type="password" class=""  name="" id="PassId" placeholder="8-16个字符，必须包含英文、数字、字符中的两种"/>
+								<span id="passMsg">
+									
 								</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			
-			<div class="CenFootBox">
-				<!--FootBoxCenter-->
-				<div class="FootBoxCenter">
-					<div class="CenterBoxLeft">
-						<div class="ServeBox">
-					        <p class=""><a style="cursor:default">客户服务</a></p>
-					        <ul class="">
-					             <li> <a href="" target="_blank">尺码剪裁说明</a></li>
-					            <li><a href="" target="_blank" rel="nofollow">团购申请</a></li>
-					            <li><a href="" target="_blank">联系我们</a></li>
-					            <li><a href="" target="_blank">加入我们</a></li>
-					                           
-					        </ul>
-					    </div>
-					    <div class="SaleBox">
-					        <p>订单及售后</p>
-					        <ul>
-					         	<li><a href="" target="_blank" ">游客订单查询</a></li>
-					            <li><a href="" target="_blank">支付说明</a></li>
-					            <li><a href="" target="_blank">物流与配送</a></li>
-					            <li><a href="" target="_blank">退换货政策说明</a></li>
-					            </ul>
-					    </div>
-					</div>
-					
-					<div class="CenterBoxRight">
-						<div class="MesInpBox">
-							<div class="MesP">
-								了解 UA 最新资讯
 							</div>
-							<div class="SubBox">
-								<div class="InpBox">
-									<input placeholder="输入邮箱订阅UA最新电子资讯" id="" type="text">
-								</div>
-								<a href="" id="" class="SubA">订阅</a>
-							</div>
-							<div class="AttBox">
-							<div class="WeBox">关注我们</div>
-								<div class="IconA">
-		                            <a class="WeiBoA" href=""><i class="iconfont icon-weibo"></i></a>
-									<a class="WeiXinA">
-										<i class="iconfont icon-weixin"></i>
-										<div class="wechat-dialog">
-											<img src="img/qrcode-pc.png"/> 
-										</div>
-									</a>
-								</div>
+							<div class="AffPass">
+								<p class="">确认密码</p>
+								<input type="password" class=""  name="" id="AffPassId" placeholder="请再次输入密码"/>
+								<span id="AffPassMsg">
+									
+								</span>
 							</div>
 						</div>
-						
+						<div class="RegiRight">
+							<div class="Phone">
+								<p>手机号码</p>
+								<input type="text" name="" id="PhoneId" placeholder="请输入手机号"/>
+								<span id="PhoneMsg">
+									
+								</span>
+							</div>
+							<div class="VerBox">
+								<p>图片验证码</p>
+								<div class="VerBoxPic">
+									<div class="VerPic">
+										<img src="img/ver/1.jpg"/>
+										<a href="">换一张</a>
+									</div>
+									<div class="VerInp">
+										<input type="text" name="" id="" placeholder="图片验证码"/>
+									</div>
+								</div>
+							</div>
+							<div class="PhoneVer">
+								<p>手机验证码</p>
+								<input type="text" name="" id="PhoneVerId" placeholder="手机验证码"/><span id="spanPhone" class="SpanPhone">获取验证码</span>
+								<span id="PhoneVerMsg">
+									
+								</span>
+							</div>
+						</div>
+						<div class="State">
+							<div class="StateTop">
+								<input type="checkbox" name="" id="" value="" checked/>
+								<span class="">我愿意接受来自UA中国官方商城的活动邮件和短信</span>
+							</div>
+							<div class="StateBottom">
+								<input type="checkbox" name="" id="" value="" checked/>
+								<span class="">我已阅读并同意</span>《<a href="">网站使用规则</a>》
+							</div>
+						</div>
+						<div class="SubmitBox">
+							<div class="SubmitLeft">
+								<a href="">立即注册</a>
+							</div>
+							<div class="SubmitRight">
+								<p>
+									已有账号？
+									<a href="">立即登录</a>
+								</p>
+							</div>
+						</div>
 					</div>
-				</div>
-			
-				<!--FootBoxFoot-->
-				<div class="FootBoxFoot">
-					<ul class="FootBoxUl">
-						<li class="FootBoxLi">Copyright ©2018 Under Armour, Inc.</li>
-						<li class="FootBoxLi ColsLi">|</li>
-						<li class="FootBoxLi"><a href="/help/privacy" target="_blank" ">隐私权保护</a></li>
-						<li class="FootBoxLi ColsLi">|</li>
-						<li class="FootBoxLi"><a href="" target="_blank" rel="nofollow">使用规则</a></li>
-						<li class="FootBoxLi ColsLi">|</li>
-						<li class="FootBoxLi"><a href="" target="_blank">网站地图</a></li>
-						<li class="FootBoxLi ColsLi">|</li>
-						<li class="FootBoxLi">沪ICP备12034417号<span class="">Copyright ©2018 Under Armour, Inc.</span></li>
-						<li class="FootBoxLi ColsLi">|</li>
-						<li class="FootBoxLi BgTu"><a href="" target="_blank" >电子营业执照</a></li>
-						<li class="FootBoxLi ColsLi">|</li>
-						<li class="FootBoxLi BgTu1"><a target="_blank" href="" ></i>沪公网安备 31010102003916号</a></li>
-					</ul>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="ErWeiMaBox">
-		<a class="" href="#"><span class="JieTou"></span></a>
-	</div>
+		
+		
+		<!--FootBox-->
+		<div class="FootBox">
+			<div class="FootBoxSum">
+				<div class="FootBoxHeader">
+					<div class="HeaderLeft">
+						<img src="img/footer-black-logo.jpg"/>
+					</div>
+					<div class="HeaderRight">
+						<ul class="HeaderRightUi">
+							<li class="HeaderRightLi">
+								<i class="iconfont icon-weibiaoti-"></i>
+								<span class="">
+									400-021-8989
+								</span>
+							</li>
+							<li class="HeaderRightLi">
+								<a href="#">
+									<i class="iconfont icon-message"></i>
+								
+								<a href="#">
+									<span id="">
+										在线客服
+									</span>
+								</a>
+							</li>
+							<li class="HeaderRightLi">
+								<a href="#">
+									<i class="iconfont icon-dingwei"></i>
+								</a>
+								<a href="#">
+									<span id="">
+										线下门店
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="CenFootBox">
+					<!--FootBoxCenter-->
+					<div class="FootBoxCenter">
+						<div class="CenterBoxLeft">
+							<div class="ServeBox">
+						        <p class=""><a style="cursor:default">客户服务</a></p>
+						        <ul class="">
+						             <li> <a href="" target="_blank">尺码剪裁说明</a></li>
+						            <li><a href="" target="_blank" rel="nofollow">团购申请</a></li>
+						            <li><a href="" target="_blank">联系我们</a></li>
+						            <li><a href="" target="_blank">加入我们</a></li>
+						                           
+						        </ul>
+						    </div>
+						    <div class="SaleBox">
+						        <p>订单及售后</p>
+						        <ul>
+						         	<li><a href="" target="_blank" ">游客订单查询</span></li>
+						            <li><a href="" target="_blank">支付说明</a></li>
+						            <li><a href="" target="_blank">物流与配送</a></li>
+						            <li><a href="" target="_blank">退换货政策说明</a></li>
+						            </ul>
+						    </div>
+						</div>
+						
+						<div class="CenterBoxRight">
+							<div class="MesInpBox">
+								<div class="MesP">
+									了解 UA 最新资讯
+								</div>
+								<div class="SubBox">
+									<div class="InpBox">
+										<input placeholder="输入邮箱订阅UA最新电子资讯" id="" type="text">
+									</div>
+									<a href="" id="" class="SubA">订阅</a>
+								</div>
+								<div class="AttBox">
+								<div class="WeBox">关注我们</div>
+									<div class="IconA">
+			                            <a class="WeiBoA" href=""><i class="iconfont icon-weibo"></i></a>
+										<a class="WeiXinA">
+											<i class="iconfont icon-weixin"></i>
+											<div class="wechat-dialog">
+												<img src="img/qrcode-pc.png"/> 
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				
+					<!--FootBoxFoot-->
+					<div class="FootBoxFoot">
+						<ul class="FootBoxUl">
+							<li class="FootBoxLi">Copyright ©2018 Under Armour, Inc.</li>
+							<li class="FootBoxLi ColsLi">|</li>
+							<li class="FootBoxLi"><a href="/help/privacy" target="_blank" ">隐私权保护</a></li>
+							<li class="FootBoxLi ColsLi">|</li>
+							<li class="FootBoxLi"><a href="" target="_blank" rel="nofollow">使用规则</a></li>
+							<li class="FootBoxLi ColsLi">|</li>
+							<li class="FootBoxLi"><a href="" target="_blank">网站地图</a></li>
+							<li class="FootBoxLi ColsLi">|</li>
+							<li class="FootBoxLi">沪ICP备12034417号<span class="">Copyright ©2018 Under Armour, Inc.</span></li>
+							<li class="FootBoxLi ColsLi">|</li>
+							<li class="FootBoxLi BgTu"><a href="" target="_blank" >电子营业执照</a></li>
+							<li class="FootBoxLi ColsLi">|</li>
+							<li class="FootBoxLi BgTu1"><a target="_blank" href="" ></i>沪公网安备 31010102003916号</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ErWeiMaBox">
+	        <div class="MaBox">
+				<span class="ErWeiMa"><img src="img/generate_qrcode.jpg"/></span>
+			</div>	
+			<a class="" href="#"><span class="JieTou"></span></a>
+		</div>
 	</body>
 </html>
 <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
@@ -900,10 +985,12 @@
 			});
 			
 			//点击
-	//		$(".Li_One_Input").click(function(){
-	//			$(".Li_One_Input").width(246);
-	//		});
-			
+//			$(".Li_One_Input").click(function(){
+//				$(".Li_One_Input").width(246);
+//			});
+//			$(".Li_One_Input").blur(function(){
+//				$(".Li_One_Input").width(120);
+//			});
 			//滑出
 				$(".Li_One_Input").mouseleave(function(){
 					$(".Li_One_Input").animate({
@@ -922,6 +1009,81 @@
 			}
 		});
 	})
+	function DG(str){
+		if(str.charAt(0)=="#"){
+			return document.getElementById(str.substring(1));
+		}else if(str.charAt(0)=="."){
+			return document.getElementsByClassName(str.substring(1));
+		}else{
+			return document.getElementsByTagName(str);
+		}
+	}
+	
+	//验证
+	//邮箱
+	DG("#eMailId").onblur=function(){
+		let regObj = /^\w+@\w+\.(com|cn|net)$/;
+		if(regObj.test(this.value)){
+			DG("#eMailMsg").innerHTML="";
+		}else{
+			DG("#eMailMsg").innerHTML="邮箱格式不正确，请重新输入";
+		}
+	}
+	//密码
+	DG("#PassId").onblur = function (){
+		let regObj = /^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,16}$/;
+		if(regObj.test(this.value)){
+			DG("#passMsg").innerHTML="";
+		}else{
+			DG("#passMsg").innerHTML="8-16个字符，必须包含英文、数字、字符中的两种";
+		}
+	}
+	//确认密码
+	DG("#AffPassId").onblur = function (){
+		if(DG("#AffPassId").value==""){
+			DG("#AffPassMsg").innerHTML = "两次密码不一致";
+		}else if(DG("#AffPassId").value!=""){
+			if(DG("#PassId").value==DG("#AffPassId").value){
+				DG("#AffPassMsg").innerHTML = "";
+				
+			}else{
+				DG("#AffPassMsg").innerHTML = "两次密码不一致";
+			}
+		}
+	}
+	//手机号		
+	DG("#PhoneId").onclick = function (){
+		DG("#PhoneId").placeholder= "完成注册后，可以通过手机号码登录和找回密码";
+	}
+	DG("#PhoneId").onblur = function (){
+		let regObj = /^1[3-9][0-9]{9}$/;
+		if(regObj.test(this.value)){
+			DG("#PhoneMsg").innerHTML = "";
+			DG("#spanPhone").style.opacity="1";
+		}else{
+			DG("#PhoneMsg").innerHTML = "手机号码格式不正确，请重新输入";
+			DG("#spanPhone").style.opacity="0.5";
+		}
+	}
+	//验证码
+	
+	
+	//手机验证码
+	DG("#PhoneVerId").onblur = function (){
+		if(DG("#PhoneVerId").value==""){
+			DG("#PhoneVerMsg").innerHTML = "请输入手机验证码"
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	function DG(str){
 		if(str.charAt(0)=="#"){
 			return document.getElementById(str.substring(1));
